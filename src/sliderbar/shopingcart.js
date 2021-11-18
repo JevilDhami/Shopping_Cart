@@ -72,9 +72,9 @@ function MainSlide() {
                                     onChange={changeData}
                                 />
                             
-                            <Button className="btn btn-outline-success" type="submit" onClick= {() => handleSave()}>Submit</Button>
+                            <Button className="btn btn-outline-denger" type="submit" onClick= {() => handleSave()}>Submit</Button>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <Button className="btn btn-outline-danger" type="reset">Reset</Button>
+                            <Button className="btn btn-outline-success" type="reset">Reset</Button>
 
                           {/* {  tblval.push(finalData) } */}
                             </Form.Group>
