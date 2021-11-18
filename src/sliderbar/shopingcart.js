@@ -113,7 +113,7 @@ function Shopingcart() {
     const [CountData,setCountData]=useState(0);
 
     const products = [
-            {id: "1", counter :1 , category: "Women", product: "Sari", price : "6000", sizes :[{Size :"M" , Price :"6000"},{Size :"S" , Price :"5500"},{Size :"XL" , Price :"6500"},{Size :"XXl" , Price :"7000"}],productImage:"https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPGRUBSTAKER-WAMBA473753D1AAC8F/1604564348100_0..jpg"},
+            {id: "1", counter :1 , category: "Women", product: "Sari", price : "6000",productImage:"https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPGRUBSTAKER-WAMBA473753D1AAC8F/1604564348100_0..jpg"},
             {id: "2", counter :1, category: "Women", product: "Kurties", price : "600", sizes :[{Size :"M" , Price :"600"},{Size :"S" , Price :"500"},{Size :"XL" , Price :"650"},{Size :"XXl" , Price :"700"}],productImage:"https://canary.contestimg.wish.com/api/webimage/5f1becdeef969e7900f3043f-large.jpg?cache_buster=cbb588cb756f51e6f4d5297ccf4a50a3"},
             {id: "3", counter :1, category: "Women", product: "tops", price : "400", sizes :[{Size :"M" , Price :"400"},{Size :"S" , Price :"350"},{Size :"XL" , Price :"450"},{Size :"XXl" , Price :"500"}],productImage:"https://4.imimg.com/data4/PW/MN/ANDROID-37023138/product-500x500.jpeg"},
             {id: "4", counter :1, category: "Women", product: "jeans",price : "1200", sizes :[{Size :"30" , Price :"1200"},{Size :"28" , Price :"1150"},{Size :"32" , Price :"1250"},{Size :"34" , Price :"1300"}],productImage:"https://rukminim1.flixcart.com/image/714/857/ki7qw7k0-0/trouser/s/p/d/15-16-years-m7016-paaqi-original-imafy2c8erxkwgje.jpeg?q=50"},

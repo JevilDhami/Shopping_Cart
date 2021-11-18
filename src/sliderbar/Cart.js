@@ -21,7 +21,7 @@ function Cart({ cartData , removeCart }) {
               <Badge variant="primary" pill>Qty :{item.counter} </Badge>
               <Badge variant="primary" pill> Price :{item.price * item.counter}</Badge>
               
-              <Button variant="outline-danger" type="submit" onClick={() => removeCart(i) }>remove</Button>
+              <button className="btn btn-outline-danger" type="remove" onClick={() => removeCart(i) }>remove</button>
             </ListGroup.Item>
           </ListGroup>
         ))}
