@@ -25,13 +25,13 @@ class List extends React.Component {
                       <Card.Text>
                         {console.log("size print", item.sizes)}
                         {item.sizes && item.sizes.map((e) => (
-                          <Button onClick={()=> changeSize(item.id, e)}>{e.Size}</Button>
+                          <Button class="btn btn-outline-secondary" onClick={()=> changeSize(item.id, e)}>{e.Size}</Button>
                         ))}
                       </Card.Text>
                       <p>Qty :{item.counter}</p>
-                      <button onClick={() => onIncrease(item.id)}>+</button>
-                      <button onClick={() => onDecrease(item.id)}>-</button>
-                      <button type="submit" onClick={() => handleClick(item)}> Add to Cart</button>
+                      <button className="btn btn-outline-success" onClick={() => onIncrease(item.id)}>+</button>
+                      <button className="btn btn-outline-danger" onClick={() => onDecrease(item.id)}>-</button>
+                      <button class="btn btn-outline-info" type="submit" onClick={() => handleClick(item)}> Add to Cart</button>
                     </Card.Body>
                   </Card>
                 </Col>
